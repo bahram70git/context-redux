@@ -1,0 +1,75 @@
+.counter {
+  width: 400px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.counter button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #000000;
+  color: #ffffff;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.counter button:active {
+  transform: scale(0.9);
+}
+
+.Scripts {
+  width: 400px;
+  background: #ffffff;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.Scripts > input {
+  width: 100%;
+  outline: none;
+  border: 3px solid #0000ff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.Scripts div {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.Scripts div input {
+  margin-right: 10px;
+}
+
+.Scripts div label {
+  margin-right: 50px;
+}
+
+.outputs {
+  width: 400px;
+  background: #ffffff;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.outputs h1 {
+  color: #0000ff;
+}
+
+.outputs h2 {
+  margin: 20px 0;
+}
+
+.outputs span {
+  margin-right: 10px;
+}
